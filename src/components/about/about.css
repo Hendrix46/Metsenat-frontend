@@ -1,0 +1,30 @@
+#about{
+    background-color: #f1f1f1;
+    padding: 30px 0 ;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+#about h1{
+    font-size: 42px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.quote p{
+    z-index: 2;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 640px){
+    .d-flex{
+        display: block!important;
+    }
+    .video{
+        margin: 0;
+    }
+}

@@ -1,0 +1,33 @@
+.pt{
+    color: red;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 24px;
+}
+.navbar-brand span{
+    color: red;
+}
+.navbar-scroll{
+    transition: 0.5s all ease-in-out;
+    background-color: white;
+    box-shadow: 3px 3px 20px grey;
+}
+.reg{
+    border: 2px solid #36f;
+    border-radius: 10px;
+    margin: 0 10px;
+
+}
+.nav-item:nth-child(3) a{
+    font-weight: 600;
+    color: black!important;
+}
+.nav-item:nth-child(4) button{
+    padding: 5px 20px;
+
+}
+.nav-link{
+    margin-left: 15px;
+    font-size: 14px;
+}

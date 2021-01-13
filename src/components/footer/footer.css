@@ -1,0 +1,45 @@
+.navs h2, ul li{
+    display: inline-block;
+}
+.navs ul{
+    float: right;
+    margin-right: 50px;
+}
+.navs ul li{
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.logo{
+    background-color: #1d1d1f;
+    width: 500px;
+    height: 100px;
+}
+.logo img{
+    border-right: 4px solid gray;
+    border-radius: 2px;
+    padding: 10px;
+}
+.logo span{
+    color: white;
+    padding-top: 32px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+#footer{
+    background-color: #F5F5F7;
+    padding-top: 20px;
+    height: 300px;
+}
+#footer .logo{
+    display: flex;
+    border-radius: 10px;
+
+}
+.txt{
+    margin-top: -100px;
+    margin-left: 650px;
+    font-size: 12px;
+    width: 400px!important;
+}

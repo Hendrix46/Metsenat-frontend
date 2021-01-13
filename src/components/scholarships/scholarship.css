@@ -1,0 +1,70 @@
+#scholar{
+    background-color:  rgba(0,0,0, 0.1);
+    padding: 20px 0;
+}
+.grant, .stp{
+    font-size: 42px;
+    font-weight: 700;
+}
+.stp{
+    color: #86868b;
+}
+.stp:hover{
+    color: black;
+}
+.new button{
+    font-size: 14px;
+    padding: 8px 25px;
+    background-color: #3366FF;
+    color: white;
+    font-weight: 500;
+    border: 2px solid #3366FF;
+    border-radius: 8px;
+}
+.new:hover button{
+    color: #3366ff;
+    background-color: white;
+    transition: 0.4s all ease-in-out;
+}
+.tab{
+    margin: 25px 0;
+    font-size: 14px;
+    border-radius: 16px;
+    /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);*/
+}
+thead tr{
+    color: rgba(0,0,0,0.2);
+}
+tbody{
+    background-color: transparent;
+}
+.tab tbody tr{
+    margin-top: 20px;
+    background-color: white;
+}
+.page-item.active .page-link {
+    border-radius: 4px!important;
+}
+
+@media screen and (max-width: 640px){
+    .med{
+        margin: 0!important;
+        padding: 0;
+    }
+    .grant, .stp{
+        font-size: 28px;
+    }
+    .new button{
+        font-size: 14px;
+        padding: 6px 8px;
+        background-color: #3366FF;
+        color: white;
+        font-weight: 500;
+        border: 2px solid #3366FF;
+        border-radius: 8px;
+    }
+    .pagination{
+        margin-left: 200px;
+        text-align: center;
+    }
+}
